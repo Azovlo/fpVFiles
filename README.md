@@ -1,31 +1,30 @@
-#fpVFiles
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Автоматически определяет и сортирует:
+## Getting Started
 
-📞 Телефоны (различные форматы)
+First, run the development server:
 
-👤 ФИО (полные имена)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-📡 Операторы
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-🌍 Регионы (области, края, города)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-⏰ Время (ЧЧ:ММ, ЧЧ:ММ:СС)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-📅 Дата рождения/возраст
+## Learn More
 
-🔒 Персональные данные (паспорта) - автоматически помещаются в отдельный столбец
+To learn more about Next.js, take a look at the following resources:
 
-✅ Автоматическое исправление структуры - система анализирует каждый файл и правильно сопоставляет столбцы, даже если они в разном порядке
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-✅ Обработка разных форматов - корректно работает с файлами, где данные могут быть "поменяны местами"
-
-✅ Мгновенное структурирование - автоматически создает стандартизированную таблицу с правильными заголовками
-
-✅ Безопасность персональных данных - паспорта и другие чувствительные данные автоматически выделяются в отдельный столбец
-
-✅ Предварительный просмотр - возможность проверить результат перед финальным сохранением
-
-📊 Результат:
-
-Все файлы объединяются в единую структурированную таблиц
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
